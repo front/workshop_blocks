@@ -1,0 +1,27 @@
+.wp-block-workshop-profile {
+  display: flex;
+  gap: 20px;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  & > *:first-child {
+    flex: 1;
+  }
+
+  & > *:last-child {
+    flex: 2;
+  }
+
+  &.is-style-image-right {
+    flex-direction: row-reverse;
+  }
+
+  &.is-style-pet {
+    h2 + p {
+      display: none;
+    }
+  }
+}

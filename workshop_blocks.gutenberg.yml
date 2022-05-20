@@ -1,0 +1,6 @@
+libraries-edit:
+  - workshop_blocks/editor
+libraries-view:
+  - workshop_blocks/frontend
+dynamic-blocks:
+  workshop/profile: {}

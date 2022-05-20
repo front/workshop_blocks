@@ -1,0 +1,15 @@
+# Custom module library for general purposes.
+editor:
+  js:
+    dist/index.js: {}
+  css:
+    theme:
+      dist/style.css: {}
+      dist/editor.css: {}
+  dependencies:
+    - gutenberg/edit-node
+
+frontend:
+  css:
+    theme:
+      dist/style.css: {}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "workshop/profile",
+  "title": "Profile",
+  "description": "An awesome profile block.",
+  "icon": "businessman",
+  "category": "design",
+  "attributes": {
+    "image_url": {
+      "type": "string"
+    },
+    "image_id": {
+      "type": "integer"
+    },
+    "image_uuid": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "selector": "h2",
+      "source": "text"
+    },
+    "position": {
+      "type": "string"
+    }
+  },
+  "example": {
+    "attributes": {
+      "image_url": "https://images.generated.photos/vjrN_XpddjXQWryHsicyTmtkkkqrCTreC8iVmQUQtWE/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDkwMDA2LmpwZw.jpg",
+      "name": "John Doe",
+      "position": "Manager"
+    }
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "color": {
+      "background": true,
+      "gradients": true
+    }
+  }
+}

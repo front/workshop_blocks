@@ -1,0 +1,27 @@
+{
+  "name": "workshop_blocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mix --production",
+    "dev": "mix",
+    "start": "mix watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-react": "^7.17.12",
+    "browser-sync": "^2.27.10",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.43",
+    "react": "^18.1.0",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0"
+  },
+  "dependencies": {
+    "@wordpress/icons": "^8.4.0"
+  }
+}

@@ -1,0 +1,23 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display an example Gutenberg block server-side.
+ *
+ * Available variables:
+ * - block_name: The Gutenberg block name.
+ * - block_content: The content of this block.
+ * - block_attributes: The attributes of this block.
+ * - attributes: array of HTML attributes populated by modules, intended to
+ *   be added to the main container tag of this template.
+ *
+ * @see template_preprocess_gutenberg_block()
+ * @see template_preprocess_gutenberg_block__example__dynamic_block()
+ *
+ * @ingroup themeable
+ */
+#}
+<div>
+    <h1>From Twig template</h1>
+    {{ block_attributes.image_url }}
+    <p>Pretty cool!</p>
+</div>
